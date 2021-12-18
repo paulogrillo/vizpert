@@ -4,7 +4,7 @@
   <p align="center">
     Technical challenge Front-end
     <br />
-    <a href="#">View Demo - coming soon</a>
+    <a href="https://vizpert.vercel.app/">View Demo - Working on it</a>
   </p>
 </div>
 
