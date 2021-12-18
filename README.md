@@ -4,7 +4,7 @@
   <p align="center">
     Technical challenge Front-end
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">View Demo - coming soon</a>
   </p>
 </div>
 
