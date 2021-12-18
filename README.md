@@ -27,26 +27,33 @@ Additional challenge:
 * The clock working
 ### Built With
 
+* [Typescript](typescriptlang.org)
 * [React.js](https://reactjs.org/)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+* [Webpack](https://webpack.js.org/)
+* [Babel](https://babeljs.io/)
 
-<!-- GETTING STARTED -->
-## Getting Started
 ### Prerequisites
 * Npm or Yarn
 * Node JS
+<!-- GETTING STARTED -->
+## Getting Started
 ### Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/paulogrillo/vizpert
    ```
-2. Install NPM packages
+2. Install packages
    ```sh
    yarn install
    ```
-3. Start app
+3. Start webpack serve
    ```js
-   yarn start
+   yarn dev
+   ```
+4. Build webpack
+   ```js
+   yarn build
    ```
