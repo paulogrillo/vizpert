@@ -44,7 +44,7 @@ Additional challenge:
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   yarn install
    ```
 3. Start app
    ```js
