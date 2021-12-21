@@ -31,6 +31,7 @@ module.exports = {
             {
                 test: /\.(j|t)sx$/,
                 exclude: /node_modules/,
+                
                 use: {
                     loader: 'babel-loader',
                     options: {
@@ -44,7 +45,19 @@ module.exports = {
                 test: /\.scss$/,
                 exclude: /node_modules/,
                 use: ['style-loader', 'css-loader', 'sass-loader'],
-            }
+            },
+
+            {
+                test: /\.svg$/,
+                use: [
+                {
+                    loader: 'svg-url-loader',
+                    options: {
+                    limit: 10000,
+                    },
+                },
+                ],
+            },
         ],
     }
 };
