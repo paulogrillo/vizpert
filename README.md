@@ -33,6 +33,7 @@ Additional challenge:
 * [JQuery](https://jquery.com)
 * [Webpack](https://webpack.js.org/)
 * [Babel](https://babeljs.io/)
+* [Styled Components](https://styled-components.com/)
 
 ### Prerequisites
 * Npm or Yarn
